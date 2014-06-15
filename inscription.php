@@ -65,7 +65,7 @@
     }
 elseif($_GET['tru']==2)
     {
-    mysql_connect("localhost", "paulinelagage", "aL9gc9fSTGuvRESt");
+    mysql_connect("localhost", "xxxx", "xxxx");
     mysql_select_db("paulinelagage");
     $email_mail = mysql_real_escape_string($_COOKIE['email']);
     $email_entre = mysql_real_escape_string($_POST['email']);
